@@ -8,25 +8,29 @@ Run `main.py` on both the computer sending the files and the computer receiving 
 ###Example sender folder:
 The sender here selects the `Darkest Dungeon II/` folder contents to send.
 
-```./Darkest Dungeon II/
+```
+./Darkest Dungeon II/
 ├───RedHookGameLogs
 ├───SaveFiles
 │   └───76561199584960791
 │       └───profiles
 │           └───...
 └───Unity
-    └───...```
+    └───...
+ ```
 
 ###Example receiver folder:
 The receiver here selects the folder `MyFolder` contents to be filled by the sender.
 
-```./MyFolder/
+```
+./MyFolder/
 ├───RedHookGameLogs
 ├───SaveFiles
 │   └───76561199584960791
 │       └───profiles
 │           └───...
 └───Unity
-    └───...```
+    └───...
+ ```
 
 It will also create a backup called `MyFolder-back1` with the contents of the original folder.
